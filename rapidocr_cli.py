@@ -65,7 +65,8 @@ class RapidOCRCLI:
     
     def process_single_image(self, image_path: str, **kwargs) -> Dict[str, Any]:
         """Process a single image"""
-        if not Path(image_path).exists():
+        image_path_obj = Path(image_path)
+        if not image_path_obj.exists():
             raise FileNotFoundError(f"Image not found: {image_path}")
         
         if self.config["verbose"]:
