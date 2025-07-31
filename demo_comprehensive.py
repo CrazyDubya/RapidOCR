@@ -61,7 +61,7 @@ class MockRapidOCR:
                 "scores": [0.99]
             }
         }
-        print("[MOCK] Using mock RapidOCR for offline demonstration")
+        logging.info("[MOCK] Using mock RapidOCR for offline demonstration")
     
     def __call__(self, img_input, **kwargs):
         """Mock OCR processing"""
