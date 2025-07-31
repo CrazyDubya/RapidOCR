@@ -236,9 +236,9 @@ class CacheManager:
                 result = func(*args, **kwargs)
                 
                 try:
-                    import pickle
-                    with open(cache_file, 'wb') as f:
-                        pickle.dump(result, f)
+                    import json
+                    with open(cache_file, 'w', encoding='utf-8') as f:
+                        json.dump(result, f)
                     self.logger.debug(f"Cached result for {func.__name__}")
                 except Exception as e:
                     self.logger.warning(f"Cache write error: {e}")
