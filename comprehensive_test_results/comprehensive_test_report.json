@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-07-31 18:46:02",
+  "test_summary": {
+    "unit_tests_passed": true,
+    "performance_tests_completed": true,
+    "overall_status": "PASS"
+  },
+  "detailed_results": {
+    "unit_tests": {
+      "tests_run": 6,
+      "failures": 0,
+      "errors": 0,
+      "success": true
+    },
+    "speed_benchmark": {
+      "total_images": 5,
+      "successful_images": 5,
+      "total_time": 0.5081028938293457,
+      "avg_processing_time": 0.10158338546752929,
+      "min_processing_time": 0.10045337677001953,
+      "max_processing_time": 0.10396862030029297,
+      "median_processing_time": 0.10105013847351074,
+      "std_processing_time": 0.0014600168101320094,
+      "throughput_fps": 9.840526516818715,
+      "detailed_results": [
+        {
+          "image_index": 1,
+          "image_size": [
+            320,
+            240
+          ],
+          "processing_time": 0.10045337677001953,
+          "text_count": 3,
+          "success": true
+        },
+        {
+          "image_index": 2,
+          "image_size": [
+            640,
+            480
+          ],
+          "processing_time": 0.10105013847351074,
+          "text_count": 3,
+          "success": true
+        },
+        {
+          "image_index": 3,
+          "image_size": [
+            1024,
+            768
+          ],
+          "processing_time": 0.10193490982055664,
+          "text_count": 3,
+          "success": true
+        },
+        {
+          "image_index": 4,
+          "image_size": [
+            1920,
+            1080
+          ],
+          "processing_time": 0.10396862030029297,
+          "text_count": 3,
+          "success": true
+        },
+        {
+          "image_index": 5,
+          "image_size": [
+            320,
+            240
+          ],
+          "processing_time": 0.1005098819732666,
+          "text_count": 3,
+          "success": true
+        }
+      ]
+    },
+    "memory_benchmark": {
+      "error": "psutil not available"
+    },
+    "stress_test": {
+      "duration_seconds": 10.094401836395264,
+      "images_processed": 95,
+      "errors": 0,
+      "success_rate": 1.0,
+      "avg_processing_time": 0.10313026026675576,
+      "throughput_per_second": 9.411156950130364
+    }
+  }
+}

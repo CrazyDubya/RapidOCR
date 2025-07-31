@@ -1,8 +1,8 @@
 {
-  "duration_seconds": 10.098516702651978,
+  "duration_seconds": 10.094401836395264,
   "images_processed": 95,
   "errors": 0,
   "success_rate": 1.0,
-  "avg_processing_time": 0.10316021567896792,
-  "throughput_per_second": 9.407322163962158
+  "avg_processing_time": 0.10313026026675576,
+  "throughput_per_second": 9.411156950130364
 }

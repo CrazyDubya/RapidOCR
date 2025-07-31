@@ -1,6 +1,6 @@
 # RapidOCR Comprehensive Demo Report
 
-**Demo Date:** 2025-07-31 04:44:26
+**Demo Date:** 2025-07-31 18:45:23
 **Engine:** Mock
 
 ## Capabilities Demonstrated
@@ -16,11 +16,13 @@
 
 ## Generated Files
 
+- 📄 final_demo_report.json
 - 📄 ch_en_num.jpg_result.md
 - 📄 performance_report.json
 - 📄 en.jpg_result.json
 - 📄 text_rec.jpg_basic_vis.png
 - 📄 ch_en_num.jpg_basic_vis.png
+- 📄 DEMO_SUMMARY.md
 - 📄 en.jpg_basic_vis.png
 - 📄 text_rec.jpg_result.json
 - 📄 en.jpg_result.md
@@ -31,5 +33,5 @@
 ## Performance Summary
 
 - **Images Processed:** 3
-- **Total Time:** 0.304s
+- **Total Time:** 0.303s
 - **Average Time per Image:** 0.101s
