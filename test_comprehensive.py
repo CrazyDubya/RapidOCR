@@ -61,6 +61,7 @@ class RapidOCRTestSuite(unittest.TestCase):
         cv2.imwrite(str(cls.results_dir / "empty_test.jpg"), empty_img)
         
         # Create a noisy image
+        np.random.seed(42)  # Set a fixed seed for reproducibility
         noisy_img = np.random.randint(0, 255, (100, 200, 3), dtype=np.uint8)
         cv2.imwrite(str(cls.results_dir / "noisy_test.jpg"), noisy_img)
     
