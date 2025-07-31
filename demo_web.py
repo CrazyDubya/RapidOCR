@@ -50,7 +50,7 @@ class RapidOCRWebDemo:
             raise ImportError("Flask is required for web demo. Install with: pip install flask")
             
         self.app = Flask(__name__)
-        self.app.secret_key = "rapidocr_demo_secret_key"
+        self.app.secret_key = os.environ.get("SECRET_KEY", os.urandom(24))
         self.demo = RapidOCRDemo(use_mock=use_mock)
         self.setup_routes()
         
