@@ -1,0 +1,113 @@
+{
+  "total_images": 10,
+  "successful_images": 10,
+  "total_time": 1.0170872211456299,
+  "avg_processing_time": 0.10168442726135254,
+  "min_processing_time": 0.10042214393615723,
+  "max_processing_time": 0.10430669784545898,
+  "median_processing_time": 0.1011117696762085,
+  "std_processing_time": 0.0014067211572720017,
+  "throughput_fps": 9.831998467875911,
+  "detailed_results": [
+    {
+      "image_index": 1,
+      "image_size": [
+        320,
+        240
+      ],
+      "processing_time": 0.10050010681152344,
+      "text_count": 3,
+      "success": true
+    },
+    {
+      "image_index": 2,
+      "image_size": [
+        640,
+        480
+      ],
+      "processing_time": 0.10105156898498535,
+      "text_count": 3,
+      "success": true
+    },
+    {
+      "image_index": 3,
+      "image_size": [
+        1024,
+        768
+      ],
+      "processing_time": 0.10206222534179688,
+      "text_count": 3,
+      "success": true
+    },
+    {
+      "image_index": 4,
+      "image_size": [
+        1920,
+        1080
+      ],
+      "processing_time": 0.10388708114624023,
+      "text_count": 3,
+      "success": true
+    },
+    {
+      "image_index": 5,
+      "image_size": [
+        320,
+        240
+      ],
+      "processing_time": 0.1004343032836914,
+      "text_count": 3,
+      "success": true
+    },
+    {
+      "image_index": 6,
+      "image_size": [
+        640,
+        480
+      ],
+      "processing_time": 0.10093307495117188,
+      "text_count": 3,
+      "success": true
+    },
+    {
+      "image_index": 7,
+      "image_size": [
+        1024,
+        768
+      ],
+      "processing_time": 0.10207509994506836,
+      "text_count": 3,
+      "success": true
+    },
+    {
+      "image_index": 8,
+      "image_size": [
+        1920,
+        1080
+      ],
+      "processing_time": 0.10430669784545898,
+      "text_count": 3,
+      "success": true
+    },
+    {
+      "image_index": 9,
+      "image_size": [
+        320,
+        240
+      ],
+      "processing_time": 0.10042214393615723,
+      "text_count": 3,
+      "success": true
+    },
+    {
+      "image_index": 10,
+      "image_size": [
+        640,
+        480
+      ],
+      "processing_time": 0.10117197036743164,
+      "text_count": 3,
+      "success": true
+    }
+  ]
+}
