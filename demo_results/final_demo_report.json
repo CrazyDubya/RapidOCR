@@ -1,0 +1,51 @@
+{
+  "demo_info": {
+    "timestamp": "2025-07-31 04:44:26",
+    "engine_type": "Mock",
+    "test_images_directory": "/home/runner/work/RapidOCR/RapidOCR/python/tests/test_files",
+    "results_directory": "demo_results"
+  },
+  "capabilities_demonstrated": [
+    "Basic OCR (Detection + Recognition)",
+    "Component Testing (Detection/Classification/Recognition)",
+    "Batch Processing",
+    "Error Handling & Edge Cases",
+    "Performance Benchmarking",
+    "Multiple Output Formats (JSON, Markdown, Plain Text)",
+    "Visualization Generation",
+    "Comprehensive Reporting"
+  ],
+  "files_generated": [
+    "ch_en_num.jpg_result.md",
+    "performance_report.json",
+    "en.jpg_result.json",
+    "text_rec.jpg_basic_vis.png",
+    "ch_en_num.jpg_basic_vis.png",
+    "en.jpg_basic_vis.png",
+    "text_rec.jpg_result.json",
+    "en.jpg_result.md",
+    "batch_processing_report.json",
+    "text_rec.jpg_result.md",
+    "ch_en_num.jpg_result.json"
+  ],
+  "performance_summary": {
+    "total_stats": 3,
+    "stats": [
+      {
+        "image": "ch_en_num.jpg",
+        "processing_time": 0.10219860076904297,
+        "text_count": 3
+      },
+      {
+        "image": "text_rec.jpg",
+        "processing_time": 0.10046839714050293,
+        "text_count": 1
+      },
+      {
+        "image": "en.jpg",
+        "processing_time": 0.10103082656860352,
+        "text_count": 1
+      }
+    ]
+  }
+}

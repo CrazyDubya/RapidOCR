@@ -1,0 +1,83 @@
+{
+  "total_processing_time": 0.5062010288238525,
+  "average_time_per_image": 0.10124020576477051,
+  "total_images": 5,
+  "successful_processes": 5,
+  "results": [
+    {
+      "filename": "devanagari.jpg",
+      "processing_time": 0.10117316246032715,
+      "text_count": 3,
+      "detected_text": [
+        "正品促销",
+        "Special Offer",
+        "Quality Guaranteed"
+      ],
+      "confidence_scores": [
+        0.98,
+        0.95,
+        0.92
+      ]
+    },
+    {
+      "filename": "eslav.jpg",
+      "processing_time": 0.10129976272583008,
+      "text_count": 3,
+      "detected_text": [
+        "正品促销",
+        "Special Offer",
+        "Quality Guaranteed"
+      ],
+      "confidence_scores": [
+        0.98,
+        0.95,
+        0.92
+      ]
+    },
+    {
+      "filename": "empty_black.jpg",
+      "processing_time": 0.10223960876464844,
+      "text_count": 3,
+      "detected_text": [
+        "正品促销",
+        "Special Offer",
+        "Quality Guaranteed"
+      ],
+      "confidence_scores": [
+        0.98,
+        0.95,
+        0.92
+      ]
+    },
+    {
+      "filename": "test_without_det.jpg",
+      "processing_time": 0.10042929649353027,
+      "text_count": 3,
+      "detected_text": [
+        "正品促销",
+        "Special Offer",
+        "Quality Guaranteed"
+      ],
+      "confidence_scores": [
+        0.98,
+        0.95,
+        0.92
+      ]
+    },
+    {
+      "filename": "test_letterbox_like.jpg",
+      "processing_time": 0.10087466239929199,
+      "text_count": 3,
+      "detected_text": [
+        "正品促销",
+        "Special Offer",
+        "Quality Guaranteed"
+      ],
+      "confidence_scores": [
+        0.98,
+        0.95,
+        0.92
+      ]
+    }
+  ]
+}

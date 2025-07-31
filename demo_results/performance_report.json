@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "total_images": 3,
+    "total_time": 0.3036978244781494,
+    "average_time": 0.10123260815938313,
+    "total_texts": 5,
+    "fastest_image": "text_rec.jpg",
+    "fastest_time": 0.10046839714050293,
+    "slowest_image": "ch_en_num.jpg",
+    "slowest_time": 0.10219860076904297
+  },
+  "detailed_stats": [
+    {
+      "image": "ch_en_num.jpg",
+      "processing_time": 0.10219860076904297,
+      "text_count": 3
+    },
+    {
+      "image": "text_rec.jpg",
+      "processing_time": 0.10046839714050293,
+      "text_count": 1
+    },
+    {
+      "image": "en.jpg",
+      "processing_time": 0.10103082656860352,
+      "text_count": 1
+    }
+  ]
+}
