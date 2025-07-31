@@ -408,13 +408,16 @@ def apply_performance_optimizations():
     
     # Configure OpenCV optimizations
     cv2.setUseOptimized(True)
-    cv2.setNumThreads(4)  # Optimize for common hardware
+    
+    # Dynamically determine thread count or use override
+    import os
+    thread_count = int(os.getenv("THREAD_COUNT_OVERRIDE", os.cpu_count() or 1))
+    cv2.setNumThreads(thread_count)  # Optimize for available hardware
     
     # Configure NumPy optimizations
-    import os
-    os.environ["OMP_NUM_THREADS"] = "4"
-    os.environ["OPENBLAS_NUM_THREADS"] = "4"
-    os.environ["MKL_NUM_THREADS"] = "4"
+    os.environ["OMP_NUM_THREADS"] = str(thread_count)
+    os.environ["OPENBLAS_NUM_THREADS"] = str(thread_count)
+    os.environ["MKL_NUM_THREADS"] = str(thread_count)
     
     logging.getLogger(__name__).info("Applied performance optimizations")
 
